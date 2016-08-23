@@ -1,3 +1,9 @@
+This is a fork to from the original [excel-builder.js library](https://github.com/stephenliberty/excel-builder.js) to solve one simple issue:
+
+- [JSZip v3 does not support](https://stuk.github.io/jszip/CHANGES.html) `generate()` anymore, so we have to change this library to call `generateAsync()`.
+ 
+From this point, the original documentation is untouched.
+
 ![bounties received](https://www.bountysource.com/badge/team?team_id=59027&style=bounties_received)
 
 excel-builder.js
