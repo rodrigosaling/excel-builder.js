@@ -4513,19 +4513,7 @@ var SheetView = require('./SheetView');
                 ]));
             }
         },
-    
-        /**
-         * http://www.schemacentral.com/sc/ooxml/t-ssml_ST_Orientation.html
-         * 
-         * Can be one of 'portrait' or 'landscape'.
-         * 
-         * @param {String} orientation
-         * @returns {undefined}
-         */
-        setPageOrientation: function (orientation) {
-            this._orientation = orientation;
-        },
-        
+
         /**
          * Set page details in inches.
          * use this structure:
