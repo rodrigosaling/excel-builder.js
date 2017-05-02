@@ -13924,18 +13924,6 @@ var SheetView = require('./SheetView');
         },
         
         /**
-         * http://www.schemacentral.com/sc/ooxml/t-ssml_ST_Orientation.html
-         * 
-         * Can be one of 'portrait' or 'landscape'.
-         * 
-         * @param {String} orientation
-         * @returns {undefined}
-         */
-        setPageOrientation: function (orientation) {
-            this._orientation = orientation;
-        },
-        
-        /**
          * Expects an array of column definitions. Each column definition needs to have a width assigned to it. 
          * 
          * @param {Array} columns
